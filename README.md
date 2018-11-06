@@ -3,7 +3,9 @@
 
 
 
-mvn clean compile assembly:single
+User welcome application
 =======
-mvn clean compile assembly:single
+Java 8
+Maven
+JUnit
 
