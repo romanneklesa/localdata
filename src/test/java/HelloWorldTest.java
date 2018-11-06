@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 
 public class HelloWorldTest {
 
-    private final Locale DEFAULT_LOCALE = new Locale("ru", "RU");
+    private final Locale DEFAULT_LOCALE = new Locale("en", "US");
     private final Logger LOG = Logger.getLogger(HelloWorld.class);
 
     @Test
