@@ -1,1 +1,3 @@
-# localdata
+
+
+mvn clean compile assembly:single
