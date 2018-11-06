@@ -7,7 +7,7 @@ import java.util.*;
 
 import static org.junit.Assert.*;
 
-public class TestHelloWorld {
+public class HelloWorldTest {
 
     private final Locale DEFAULT_LOCALE = new Locale("ru", "RU");
     private final Logger LOG = Logger.getLogger(HelloWorld.class);
