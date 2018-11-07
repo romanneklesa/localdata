@@ -3,6 +3,8 @@ import com.helloworld.HelloWorld;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 import static org.junit.Assert.*;
@@ -17,7 +19,6 @@ public class HelloWorldTest {
         LOG.info("Test for method java.util.Locale.getDefault()");
         Locale defaultLocale = Locale.getDefault();
         assertEquals(DEFAULT_LOCALE, defaultLocale);
-
     }
 
     @Test
@@ -27,13 +28,5 @@ public class HelloWorldTest {
         String dayTime = bundle.getString("day.time");
         assertEquals(dayTime, "Доброго дня, мир!");
     }
-
-
-    @Test
-    public void testTime() {
-
-
-    }
-
 }
 
