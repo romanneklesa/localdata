@@ -9,3 +9,8 @@ Java 8
 Maven
 JUnit
 
+### Installation
+
+- Clone repository
+- in cmd enter mvn clean compile assembly:single and run .jar file
+
