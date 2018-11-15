@@ -21,7 +21,7 @@ public class Greeting {
 
         if (hour >= 23 || hour >= 0 && hour <= 5) {
             return resourceBundle.getString(GOODNIGHT);
-        } else if (hour >= 6 && hour <= 9) {
+        } else if (hour >= 6 && hour <= 8) {
             return resourceBundle.getString(GOODMORNING);
         } else if (hour >= 9 && hour <= 18) {
             return resourceBundle.getString(GOODDAY);
