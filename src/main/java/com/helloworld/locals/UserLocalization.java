@@ -12,6 +12,9 @@ public class UserLocalization {
 
         LOG.info("getting current user location");
 
-        return Locale.getDefault();
+       // Locale local = new Locale("de");
+
+        return new Locale("by");
+       // return Locale.getDefault();
     }
 }

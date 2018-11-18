@@ -18,5 +18,6 @@ public class  Main {
         Greeting greeting = new Greeting();
         System.out.println(greeting.welcomeUserByLocalization(date, bundle));
 
+
     }
 }
