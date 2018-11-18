@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class UserLocalizationTest {
 
-    private static final Logger LOG = Logger.getLogger(LocaleInitTest.class);
+    private static final Logger LOG = Logger.getLogger(UserLocalizationTest.class);
 
 
     @Test

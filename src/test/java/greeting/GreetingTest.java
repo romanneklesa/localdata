@@ -1,6 +1,5 @@
-package currenttime;
+package greeting;
 
-import com.helloworld.currenttime.CurrentTime;
 import com.helloworld.greeting.Greeting;
 import org.apache.log4j.Logger;
 import org.junit.Assert;

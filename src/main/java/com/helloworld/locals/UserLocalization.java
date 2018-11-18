@@ -11,6 +11,7 @@ public class UserLocalization {
     public static Locale getCurrentUserLocale() {
 
         LOG.info("getting current user location");
+
         return Locale.getDefault();
     }
 }

@@ -1,7 +1,7 @@
 package init;
 
 import com.helloworld.init.LocaleInit;
-import currenttime.GreetingTest;
+import greeting.GreetingTest;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import java.util.ResourceBundle;
 
 public class LocaleInitTest {
 
-    private static Logger LOG = Logger.getLogger(GreetingTest.class);
+    private static Logger LOG = Logger.getLogger(LocaleInitTest.class);
 
     @Test
     public void  testLocaleInitNotNullResourceBundle(){
